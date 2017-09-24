@@ -13,7 +13,7 @@ clean:
 	rm -rf public
 
 public:
-	hugo
+	-hugo
 
 publish: clean public
 	aws --profile ${AWSPROFILE} s3 sync public s3://${S3BUCKETNAME}
