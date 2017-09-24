@@ -1,0 +1,21 @@
+baseURL = "http://slowbluecamera.com/"
+languageCode = "en-us"
+title = "slowbluecamera"
+theme = "hugo-sp-minimal"
+
+[params]
+  title       = "slowbluecamera"
+  subtitle    = "projects and services for modern application delivery"
+  copyright   = "n/a"
+  authorImage = "dali-fisheye.jpg"
+
+  #"single" or "multi"
+  renderType = "single"
+  #"simple" or "original"
+  themeStyle = "simple"
+
+  googleAnalytics = ""
+
+  name = "David Benjamin"
+  description = "Melbourne, Australia"
+  pageNotFoundTitle = "404 - Page not found"
